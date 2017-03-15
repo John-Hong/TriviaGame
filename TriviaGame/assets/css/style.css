@@ -1,0 +1,22 @@
+body {
+	background: skyblue;
+	text-align: center;
+}
+
+h1 {
+	font-size: 70px;
+	margin-bottom: .2em;
+	color: blue;
+}
+
+#start_page {
+	/*display: none;*/
+}
+
+#quiz_page {
+	display: none;
+}
+
+#result_page {
+	display: none;
+}

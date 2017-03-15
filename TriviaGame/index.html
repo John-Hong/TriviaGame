@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta charset="UTF-8"></meta>
+	<title> Trivia Game! </title>
+	<script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+	<script type="text/javascript" src="assets/javascript/app.js"></script>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+
+<h1> Totally Trivial Trivia! </h1>
+
+<div id="start_page">
+	<button id="start">Start</button>
+</div>
+
+<div id="quiz_page">
+	<h2> Time Remaining: <span id="timer_display">...</span> </h2>
+
+	<h2>What was the first full length CGI movie?</h2>
+	<label><input type="radio" name="question1" value="A">A Bug's Life</label>
+	<label><input type="radio" name="question1" value="B">Monster's Inc.</label>
+	<label><input type="radio" name="question1" value="C">Toy Story</label>
+	<label><input type="radio" name="question1" value="D">The Lion King</label>
+
+	<h2>Which of these is NOT a name of one of the Spice Girls?</h2>
+	<label><input type="radio" name="question2" value="A">Sporty Spice</label>
+	<label><input type="radio" name="question2" value="B">Fred Spice</label>
+	<label><input type="radio" name="question2" value="C">Scary Spice</label>
+	<label><input type="radio" name="question2" value="D">Posh Spice</label>
+
+	<h2>Which NBA team won the most titles in the 90s?</h2>
+	<label><input type="radio" name="question3" value="A">New York Knicks</label>
+	<label><input type="radio" name="question3" value="B">Portland Trailblazers</label>
+	<label><input type="radio" name="question3" value="C">Los Angeles Lakers</label>
+	<label><input type="radio" name="question3" value="D">Chicago Bulls</label>
+
+	<h2>Which group released the hit song, "Smells Like Tenn Spirit"?</h2>
+	<label><input type="radio" name="question4" value="A">Nirvana</label>
+	<label><input type="radio" name="question4" value="B">Backstreet Boys</label>
+	<label><input type="radio" name="question4" value="C">The Offspring</label>
+	<label><input type="radio" name="question4" value="D">No Doubt</label>
+
+	<h2>Which popular Disney movie featured the song, "Circle of Life"?</h2>
+	<label><input type="radio" name="question5" value="A">Aladdin</label>
+	<label><input type="radio" name="question5" value="B">Hercules</label>
+	<label><input type="radio" name="question5" value="C">Mulan</label>
+	<label><input type="radio" name="question5" value="D">The Lion King</label>
+
+	<h2>Finish the line from the Fresh Prince of Bel-Air theme song: "I whistled for a cab and when i came near, the license plate said ..."</h2>
+	<label><input type="radio" name="question6" value="A">Dice</label>
+	<label><input type="radio" name="question6" value="B">Mirror</label>
+	<label><input type="radio" name="question6" value="C">Fresh</label>
+	<label><input type="radio" name="question6" value="D">Cab</label>
+
+	<h2>What was the Doug's best friend's name?</h2>
+	<label><input type="radio" name="question7" value="A">Skeeter</label>
+	<label><input type="radio" name="question7" value="B">Mark</label>
+	<label><input type="radio" name="question7" value="C">Zach</label>
+	<label><input type="radio" name="question7" value="D">Cody</label>
+
+	<h2>What was the name of the principal at Bayside High in Saved By The Bell?</h2>
+	<label><input type="radio" name="question8" value="A">Mr.Zhou</label>
+	<label><input type="radio" name="question8" value="B">Mr.Driggers</label>
+	<label><input type="radio" name="question8" value="C">Mr.Belding</label>
+	<label><input type="radio" name="question8" value="D">Mr.Page</label>
+	<br>
+	<input type="button" value="Submit" id="quiz_submit_button" style="margin-top:2em; background:white;">
+</div>
+
+<div id="result_page">
+	<h3> All Done!</h3>
+	<p>Correct: <span id="result_correct">...</span></p>
+	<p>Incorrect: <span id="result_incorrect">...</span></p>
+	<p>Unanswered: <span id="result_unanswered">...</span></p>
+</div>
+
+</body>
+</html>
